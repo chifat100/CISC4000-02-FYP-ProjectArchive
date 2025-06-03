@@ -1,0 +1,60 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(45deg, #3498db, #2ecc71);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        .verify-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            width: 500px;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        .message {
+            color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .success {
+            background: rgba(46, 204, 113, 0.2);
+        }
+
+        .error {
+            background: rgba(231, 76, 60, 0.2);
+        }
+
+        .btn-login {
+            display: inline-block;
+            padding: 12px 30px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #2ecc71;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-login:hover {
+            background: #2ecc71;
+            color: #fff;
+            transform: translateY(-2px);
+        }
